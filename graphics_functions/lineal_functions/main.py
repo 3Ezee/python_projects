@@ -32,6 +32,6 @@ print("y:",ry)
 
 plt.plot(rx,ry)
 plt.scatter(rx,ry,s=20)
-plt.xticks(100)
+#plt.xticks(100)
 plt.autoscale(tight = False)
 plt.show()

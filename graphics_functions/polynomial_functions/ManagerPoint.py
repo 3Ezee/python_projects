@@ -10,7 +10,7 @@ class Point:
     b = 0 #bx²
     c = 0 #cx
     d = 0 #d
-
+            
     # ax³ + bx² + cx + dn = y
     def GetY(self,x):
         return self.a*x*x*x +self.b*x*x +self.c*x +self.d 
